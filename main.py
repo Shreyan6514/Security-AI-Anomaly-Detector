@@ -4,7 +4,7 @@ import time
 import csv
 import os
 
-app = FastAPI(title="Grade 5: Secure Cloud E-Commerce API")
+app = FastAPI(title="Secure Cloud E-Commerce API")
 
 # --- DATABASE ---
 # In-memory product list. All activity is logged to 'traffic_logs.csv'
