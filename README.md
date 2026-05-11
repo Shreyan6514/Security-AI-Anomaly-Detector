@@ -36,8 +36,8 @@ Ensure you have Python 3.10+ installed on your system.
 
 
 3. Start the API Server
-##
-    uvicorn main:app --reload
+
+-        uvicorn main:app --reload
 
 
 The API will be available at http://127.0.0.1:8000. You can use Postman to send requests to /token, /products, and /order.
