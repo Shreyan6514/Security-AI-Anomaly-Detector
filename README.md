@@ -23,8 +23,8 @@ Ensure you have Python 3.10+ installed on your system.
 2. Setup Environment
 
 # Clone the repository
-git clone [YOUR_GITHUB_URL_HERE]
-cd [YOUR_PROJECT_FOLDER]
+git clone [https://github.com/Shreyan6514/Security-AI-Anomaly-Detector/tree/main]
+cd [Final Project MAX 5]
 
 # Create and activate virtual environment
 python3 -m venv .venv
