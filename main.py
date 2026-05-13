@@ -4,7 +4,7 @@ import time
 import csv
 import os
 
-app = FastAPI(title="Secure Cloud E-Commerce API")
+app = FastAPI(title="Shreyan's Secure Cloud E-Commerce API")
 
 # --- DATABASE ---
 # In-memory product list. All activity is logged to 'traffic_logs.csv'
@@ -52,7 +52,7 @@ async def log_traffic_to_csv(request: Request, call_next):
         
     return response
 
-# ------- ENDPOINTS -----
+# ------- ENDPOINTS ---
 
 @app.post("/token")
 async def login(form_data: OAuth2PasswordRequestForm = Depends()):
